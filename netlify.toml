@@ -1,9 +1,7 @@
 [build]
 base = "frontend"
 command = "npm run build"
-
-[functions]
-directory = "netlify/functions"
+publish = ".netlify"
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
